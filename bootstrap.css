@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+  }
+  div a.current{
+	background: gray;
+}
+#navbar{
+    position: sticky;
+}
+
+ul{
+    text-align: center;
+    margin-left: 50px;
+}
+.home{
+    display: flex;
+    background: wheat;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: cursive;
+    justify-content: center;
+}
+.home .max-width{
+    margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+    font-size: 30px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: 0px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: darkblue;
+    font-weight: 500;
+}
+#scrollspyHeading1{
+    float: left;
+}
+/*about me*/
+strong{
+    margin-right: 15px;
+}
+img{
+    width: 350px;
+}
+h2{
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: cursive;
+    color: darkcyan;
+    text-align: center;
+}
+.about{
+    display: flex;
+    background: lightcoral;
+    /*height: 100vh;*/
+    color: black;
+    min-height: 500px; 
+    font-family: cursive;
+    justify-content: center;
+}
+li{
+    margin: 20px;
+    font-size: 21px;
+}
+p{
+    font-size: 25px;
+    color: darkblue;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about-me .contact h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+}
+.about-me .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* skills */
+.skill{
+    background-color: khaki;
+}
+.skills .progress{
+    height: 50px;
+    display: block;
+    background: none;
+}
+
+.skills .progress .skill{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "poppins",sans-serif;
+    color: darkblue;
+}
+
+.skills .progress .skill .val{
+    float: right;
+    font-style: normal;
+}
+ 
+.skills .progress-bar-wrap{
+    background: rgba(8, 0, 0, 0.15);
+}
+
+.skills .progress-bar{
+    width: 650px;
+    height: 10px;
+    transition: .9s;
+    background-color: red;
+}
+.skills .bare{
+    width: 550px;
+    height: 10px;
+    transition: .9s;
+    background-color: red;
+}
+.skills .bare2{
+    width: 450px;
+    height: 10px;
+    transition: .9s;
+    background-color: red;
+}
+
+.skills .bare3{
+    width: 515px;
+    height: 10px;
+    transition: .9s;
+    background-color: red; 
+}
+
+.click{
+    text-align: center;
+    margin: 50px;
+}
+button{
+    background-color: aliceblue;
+    color: darkblue;
+    width: 150px;
+}
+.pacmen a{
+    color: darkblue;
+}
+.eye-movement a{
+    color: darkblue;
+}
+.bus-tracker a{
+    color: darkblue;
+}
+.resume{
+    font-size: 20px;
+    text-align: center;
+    color: lightsalmon;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  #contact{
+      background-color: darkblue;
+  }
+ .contact .info-box{
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.08)
+}
+
+.contact .info-box i.fa{
+    font-size: 14px;
+    color: #18d26e;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    background:rgba(255, 255, 255, 0.1)
+}
+
+.contact .info-box h3{
+    font-size: 20px;
+    color: green;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+
+.contact .info-box p{
+    padding: 0;
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+
+
+
+
+  
+
+
+@media (max-width: 1500px){
+    .skills .progress-bar{
+        width: 450px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    .skills .bare{
+        width: 350px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    .skills .bare2{
+        width: 250px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    
+    .skills .bare3{
+        width: 315px;
+        height: 10px;
+        transition: .9s;
+        background-color: red; 
+    }
+}
+
+@media (max-width: 990px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        color: whitesmoke;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+   
+
+}
+@media (max-width: 850px){
+    .skills .progress-bar{
+        width: 450px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    .skills .bare{
+        width: 350px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    .skills .bare2{
+        width: 250px;
+        height: 10px;
+        transition: .9s;
+        background-color: red;
+    }
+    
+    .skills .bare3{
+        width: 315px;
+        height: 10px;
+        transition: .9s;
+        background-color: red; 
+    }
+}
